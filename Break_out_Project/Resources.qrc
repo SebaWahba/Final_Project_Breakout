@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>paddle.png</file>
+        <file>background 4.jpg</file>
+    </qresource>
+</RCC>

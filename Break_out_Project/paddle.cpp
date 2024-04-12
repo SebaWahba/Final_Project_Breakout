@@ -1,6 +1,14 @@
 #include "paddle.h"
 #include<QGraphicsScene>
 #include<QKeyEvent>
+
+
+Paddle::Paddle(QGraphicsPixmapItem *parent)
+{
+     setPixmap(QPixmap(":/Images/paddle.png"));
+}
+
+
 void Paddle::keyPressEvent(QKeyEvent*event)
 {
     if(event->key()==Qt::Key_Left)
